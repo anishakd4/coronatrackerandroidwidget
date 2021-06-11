@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/niceColor"
+    android:alpha="0.6"
+    android:layout_height="match_parent">
+    <!--    <ProgressBar-->
+    <!--        android:id="@+id/progressBar"-->
+    <!--        style="?android:attr/progressBarStyleHorizontal"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:visibility="visible"-->
+    <!--        android:layout_height="wrap_content"/>-->
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="wrap_content"
+        android:textColor="@color/textColor"
+        android:textSize="24sp"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="@string/loading"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/total_infected"
+        android:layout_width="wrap_content"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="@string/loading"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/total_deaths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="@string/loading"
+        android:textColor="@color/textColor"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="@string/loading"
+        android:textColor="@color/textColor"
+        android:textSize="20sp" />
+
+
+
+
+</LinearLayout>
